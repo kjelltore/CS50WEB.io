@@ -1,18 +1,29 @@
 .textbox {
 
-        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
         border: 1px solid black;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
         padding-top: 5px;
         padding-bottom: 5px;
-
+        width: fit-content;
+        height:fit-content;
+}
+.container{
+        text-align: center;
 }
 
 input{
         border: none;
-
+        outline: none;
+        background-color: white;
+        
 }
-input:focus{
-        opacity: 0;
+
+#search{
+        width: 20px;
+        vertical-align: middle;
 }
