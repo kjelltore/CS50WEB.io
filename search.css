@@ -2,5 +2,11 @@
 
         border-radius: 50px;
         border: 1px solid black;
+        padding-left: 15px;
+        padding-right: 15px;
+}
 
+input{
+        opacity: 0;
+        margin-left: 15px;
 }
