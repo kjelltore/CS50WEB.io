@@ -11,3 +11,8 @@ input{
         border: none;
         outline: none;
 }
+
+#search{
+        height: 20px;
+        width: 20px;
+}
