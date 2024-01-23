@@ -1,3 +1,13 @@
+.container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 1px;
+        border-color: red;
+}
+
+
 .textbox {
         border-radius: 50px;
         border: 1px solid black;
@@ -8,14 +18,11 @@
         width: fit-content;
         height:fit-content;
 }
-.container{
-        display: flex;
-        text-align: center;
-        align-items: center;
-        border: 1px;
-        border-color: red;
-}
 
+#search{
+        width: 20px;
+        vertical-align: middle;
+}
 input{
         border: none;
         outline: none;
@@ -23,7 +30,3 @@ input{
         
 }
 
-#search{
-        width: 20px;
-        vertical-align: middle;
-}
