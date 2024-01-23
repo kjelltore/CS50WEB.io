@@ -1,6 +1,18 @@
 .textbox {
 
-        border-radius: 50px;
+        border-radius: 15px;
         border: 1px solid black;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
 
+}
+
+input{
+        border: none;
+
+}
+input:focus{
+        opacity: 0;
 }
