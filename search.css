@@ -1,5 +1,4 @@
 .textbox {
-        justify-content: center;
         border-radius: 50px;
         border: 1px solid black;
         padding-left: 15px;
@@ -13,7 +12,8 @@
         display: flex;
         text-align: center;
         align-items: center;
-        justify-content: center;
+        border: 1px;
+        border-color: red;
 }
 
 input{
