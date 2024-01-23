@@ -6,7 +6,15 @@
         border: 1px;
         border-color: red;
 }
-
+#testCont{
+        width: 500px;
+        height: 500px;
+        border: solid;
+        
+        
+        
+        
+}
 
 .textbox {
         border-radius: 50px;
