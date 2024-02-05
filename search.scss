@@ -1,0 +1,136 @@
+
+$borders: none; /**1px solid green;**/
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+/**
+.container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: $borders;
+}
+
+#logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: 'Quicksand';
+        font-size: xx-large;
+        border: $borders;
+        width: 100%;
+
+}
+
+.textbox {
+        border-radius: 50px;
+        border: 1px solid lightgrey;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 33vw;
+        height:fit-content;
+}
+
+#search{
+        width: 20px;
+        vertical-align: middle;
+        border: $borders;
+}
+input{
+        border: 1px solid #f8f9fa;
+        outline: none;
+        border-radius: 4px;
+        background-color: green;
+}
+.buttons:hover{
+        
+        border: 1px solid #f8f9fa;
+        cursor: pointer;
+}
+#q{
+        background-color: white;
+}
+/**
+        id: logo --> Logoen til siden
+        class: container --> Generic container
+        id: textbox --> Rundt søkefeltet
+        id: search --> bildet av forstørrelsesglass
+class: buttons --> Sidens knapper 
+
+class = .
+id = #
+**/
+#logo, .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+#logo{ /** Chinmoku text **/
+
+        font-family: 'Quicksand';
+        font-size: xx-large;
+        border: $borders;
+        width: 100%;
+}
+.container{ /** Generic container **/
+        align-items: center;
+        border: $borders;
+}
+
+#textboxContainer { /** Border around the searchfield **/
+        border-radius: 50px;
+        border: 1px solid lightgrey;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: fit-content;
+        height:fit-content;
+}
+
+#search{ /** Magnifier glass in search field **/
+        width: 20px;
+        vertical-align: middle;
+        border: $borders;       
+}
+#SearchTextBox{ /** The textbox you write in **/
+        border:$borders;
+        outline: none;
+        width: 33vw;
+}
+.buttons, .buttons:hover{
+        border: 1px solid;
+        border-radius: 4px;
+        margin: 11px 4px;
+        padding: 0px 16px;
+        height: 37px;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        text-align: center;
+        min-width: 54px;
+        cursor: pointer;
+
+}
+.buttons {
+        border-color:  #f8f9fa;
+}
+.buttons:hover{
+        border-color: #dadce0;
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+#topLinks{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        border: $borders;
+        padding: 5px 5px 0px 0px;
+}
+
+a{
+        margin: 0px 11px;    
+}

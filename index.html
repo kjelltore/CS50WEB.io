@@ -5,16 +5,17 @@
         <link rel="stylesheet" href="search.css">
     </head>
     <body>
+        <div id="topLinks"><a href="image.html">Image search</a>|<a href="advanced.html">Advanced search</a></div>
         <div id="logo">Chinmoku</div>
         <div class="container">
-            
             <form action="https://www.google.com/search">
-                <div class="textbox">
+                <div id="textboxContainer">
                     <img src="search.png" id="search">
-                    <input type="text" name="q">
+                    <input id="SearchTextBox" type="text" name="q">
                 </div>
-                <input type="submit" value="Google Search">   
+                <input type="submit" class="buttons" value="Google Search">   
             </form>
         </div>
     </body>
 </html>
+
