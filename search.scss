@@ -47,7 +47,7 @@ id = #
         outline: none;
         width: 33vw;
 }
-.buttons, .buttons:hover{
+.buttons, .buttons:hover{ /** generic CSS for buttons **/
         border: 1px solid;
         border-radius: 4px;
         margin: 11px 4px;
@@ -71,7 +71,7 @@ id = #
 .buttons:focus{
         border: 1px solid #4285f4;
 }
-#topLinks{
+#topLinks{ /** Links at top right of the page **/
         display: flex;
         flex-direction: row;
         justify-content: right;
