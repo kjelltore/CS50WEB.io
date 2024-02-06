@@ -8,14 +8,14 @@
         <div id="topLinks"><a href="image.html">Image search</a>|<a href="advanced.html">Advanced search</a></div>
         <div id="logo">Chinmoku</div>
         <div class="container">
-            <form action="https://www.google.com/search">
+            <form action="https://www.google.com/search?sclient=img&">
                 <div id="textboxContainer">
                     <img src="search.png" id="search">
                     <input id="SearchTextBox" type="text" name="q">
+                    <input  type="hidden" name="tbm" value="isch">
                 </div>
-                <div class="container">
-                <input type="submit" class="buttons" value="Google Search">  
-                <input type="submit" class="buttons" value="I'm Feeling Lucky" name="btnI"> 
+                <div class="container"> 
+                <button type="submit" class="buttons" value="Images"><img src="imgsrc.png" id="search"></button>
             </div>
             </form>
         </div>
